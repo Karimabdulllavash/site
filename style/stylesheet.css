@@ -1,7 +1,7 @@
 body {
-    background: skyblue;
+    background: white;
     background: linear-gradient(white, skyblue);
-    color: darkgrey;
+    color: black;
 }
 
 h3 {
