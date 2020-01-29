@@ -9,22 +9,26 @@
     <link rel="stylesheet" href="style/stylesheet.css">
  <script>
    fuction openSlideMenu(){
-     document.getElementById('menu')
+     document.getElementById('menu').style.width = '250px';
+     document.getElementById('content').style.marginLeft ='250px';
    }
-    
-      
+   fuction closeSlideMenu(){
+     document.getElementById('menu').style.width = '0';
+     document.getElementById('content').style.marginLeft ='0';
+   }
  </script>
  </head>
   <body>
+   
     <div id="content">
+     
       <span class="slide"> 
         <a href="#" onclick="OpenslidMenu()">
           <i class="fas fa-bars"></i>
         </a>
-        
-        
       </span>
-      <div id="menu"> class="nav">
+     
+      <div id="menu" class="nav">
         <a href="#" class="close" oclick="closeSideMenu()">
           <i class="fas fa-times"></i>
         </a>
